@@ -1,0 +1,37 @@
+.menuSection{
+    padding:20px;
+    margin:0;
+
+    box-sizing: border-box;
+
+    width:400px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #172978;
+    color: #fcfcfc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    .menuHeader{
+        font-size: 48px;
+        margin:10px 0;
+    }
+
+    .menuForm{
+        display:flex;
+        flex-direction: column;
+
+        .menuInputContent{
+            height:200px;
+            max-height: 200px;
+            padding:10px;
+            font-size:20px;
+            max-width: 340px;
+        }
+
+        button{
+            margin: 10px 0;
+        }
+    }
+}
